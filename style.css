@@ -145,9 +145,9 @@
     color: white;
 }
 .message hr{
-    width: 100px;
+    width: 250px;
     border: 1px solid white;
-    margin-left: 610px;
+    margin-left: 420px;
 }
 .message input[type="button"]{
     background-color: rgb(1, 1, 32);
@@ -160,6 +160,7 @@
 .product{
     margin-left: 200px;
 }
+.main-cards{margin-top: 30px;}
 .main-cards h2{
     text-align: center;
     margin-bottom: 30px;
@@ -181,5 +182,20 @@
 .copyright, .row{
     width: 100%;
 }
-
-
+/*sign in page*/
+.account{
+    margin: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#signinmail, #continue{
+    width: 250px;
+    height: 2rem;
+}
+#continue{
+    background-color: rgb(4, 4, 53);
+    color: white;
+}
+#continue:hover{
+    background-color: teal;
+    color: black;
+}
